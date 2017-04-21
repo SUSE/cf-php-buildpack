@@ -423,15 +423,15 @@ dependencies:
   md5: 0ae5f6fbae17cffb087fea4b9518b4f7
   cf_stacks:
   - cflinuxfs2
-- name: nginx
-  version: 1.12.0
-  uri: https:///dependencies/nginx/nginx-1.12.0-linux-x64-72a65411.tgz
-  md5: 72a654114a857a90bc51475f570bb817
-  cf_stacks:
-  - cflinuxfs2
 - name: composer
   version: 1.4.1
   uri: https:///dependencies/composer/composer-1.4.1-0eedfb38.phar
   md5: 0eedfb38e587faaecedd7d05ae0d4081
+  cf_stacks:
+  - cflinuxfs2
+- name: nginx
+  version: 1.12.0
+  uri: https:///dependencies/nginx/nginx-1.12.0-linux-x64-04d41605.tgz
+  md5: 04d416052917220d99b1292b9d511e7a
   cf_stacks:
   - cflinuxfs2
