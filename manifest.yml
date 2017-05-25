@@ -431,7 +431,7 @@ dependencies:
   - cflinuxfs2
 - name: nginx
   version: 1.12.0
-  uri: https:///dependencies/nginx/nginx-1.12.0-linux-x64-05582cfb.tgz
-  md5: 05582cfbb47cc0c4435a46aa82600e0c
+  uri: https:///dependencies/nginx/nginx-1.12.0-linux-x64-62e72321.tgz
+  md5: 62e723211b87e49dfdd368b3f04a6f98
   cf_stacks:
   - cflinuxfs2
