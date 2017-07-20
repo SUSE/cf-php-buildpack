@@ -63,6 +63,12 @@ dependencies:
   md5: 3640d3cad6b5199f54a6b54a627235d6
 - name: httpd
   version: 2.4.25
+  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/httpd/httpd-2.4.25-linux-x64-f687973e.tgz
+  cf_stacks:
+  - opensuse42
+  md5: f687973e8fae67a5fc4de4ad50042f36
+- name: httpd
+  version: 2.4.25
   uri: https://buildpacks.cloudfoundry.org/dependencies/httpd/httpd-2.4.25-linux-x64-bf8851c4.tgz
   cf_stacks:
   - cflinuxfs2
