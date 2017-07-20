@@ -69,6 +69,75 @@ dependencies:
   md5: bf8851c45e4ef8279ae0daadc833c99e
 - name: php
   version: 5.6.30
+  uri: curl https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/php/php-5.6.30-linux-x64-bce3fa92.tgz
+  md5: bce3fa92245f6f0c4607ef575f661f6a
+  cf_stacks:
+  - opensuse42
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - gearman
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ioncube
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - memcache
+  - memcached
+  - mongo
+  - mongodb
+  - msgpack
+  - mssql
+  - mysql
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_dblib
+  - pdo_mysql
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phalcon
+  - phpiredis
+  - protobuf
+  - protocolbuffers
+  - pspell
+  - rdkafka
+  - readline
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - suhosin
+  - sundown
+  - twig
+  - xcache
+  - xdebug
+  - xhprof
+  - xsl
+  - yaf
+  - zip
+  - zlib
+- name: php
+  version: 5.6.30
   uri: https://buildpacks.cloudfoundry.org/dependencies/php/php-5.6.30-linux-x64-13625eaa.tgz
   md5: 13625eaad6f5b237fdb45871dfb91b5f
   cf_stacks:
@@ -300,6 +369,58 @@ dependencies:
   - pdo_sqlite
   - pgsql
   - phalcon
+  - phpiredis
+  - pspell
+  - rdkafka
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - xdebug
+  - xsl
+  - yaf
+  - zip
+  - zlib
+- name: php
+  version: 7.1.2
+  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/php7/php7-7.1.2-linux-x64-f450e08a.tgz
+  md5: f450e08ab6bb788b5cd0175c83701110
+  cf_stacks:
+  - opensuse42
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - mongodb
+  - msgpack
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_mysql
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
   - phpiredis
   - pspell
   - rdkafka
