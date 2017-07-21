@@ -75,7 +75,7 @@ dependencies:
   md5: bf8851c45e4ef8279ae0daadc833c99e
 - name: php
   version: 5.6.30
-  uri: curl https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/php/php-5.6.30-linux-x64-bce3fa92.tgz
+  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/php/php-5.6.30-linux-x64-bce3fa92.tgz
   md5: bce3fa92245f6f0c4607ef575f661f6a
   cf_stacks:
   - opensuse42
