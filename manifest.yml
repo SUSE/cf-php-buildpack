@@ -22,7 +22,7 @@ default_versions:
 - name: nginx
   version: 1.11.13
 - name: composer
-  version: 1.4.1
+  version: 1.4.2
 url_to_dependency_map:
 - match: newrelic-php5-(\d+\.\d+\.\d+\.\d+)-linux
   name: newrelic
@@ -374,15 +374,15 @@ dependencies:
   md5: 0ae5f6fbae17cffb087fea4b9518b4f7
   cf_stacks:
   - cflinuxfs2
-- name: composer
-  version: 1.4.1
-  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/composer/composer-1.4.1-0eedfb38.phar
-  md5: 0eedfb38e587faaecedd7d05ae0d4081
-  cf_stacks:
-  - opensuse42
 - name: nginx
   version: 1.12.0
   uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/nginx/nginx-1.12.0-linux-x64-1031cb05.tgz
   md5: 1031cb05cc97157ac6c0ea04e84990d0
+  cf_stacks:
+  - opensuse42
+- name: composer
+  version: 1.4.2
+  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/composer/composer-1.4.2-3a1d1c6c.phar
+  md5: 3a1d1c6cdccb462405eee5db90fcbd39
   cf_stacks:
   - opensuse42
