@@ -452,12 +452,18 @@ dependencies:
   md5: 6178c85f0cff4e1e7540890f5d927f0f
   cf_stacks:
   - cflinuxfs2
+- name: nginx
+  version: 1.13.1
+  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/nginx/nginx-1.13.1-linux-x64-284cedd7.tgz
+  md5: 284cedd70b16b31d509fdcb1dd630b17
+  cf_stacks:
+  - opensuse42
 - name: composer
   version: 1.4.2
   uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/composer/composer-1.4.2-3a1d1c6c.phar
   md5: 3a1d1c6cdccb462405eee5db90fcbd39
   cf_stacks:
-    - opensuse42
+  - opensuse42
 - name: httpd
   version: 2.4.25
   uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/httpd/httpd-2.4.25-linux-x64-f687973e.tgz
