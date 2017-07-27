@@ -19,10 +19,10 @@ default_versions:
   version: 2.4.25
 - name: newrelic
   version: 6.3.0.161
-- name: nginx
-  version: 1.11.13
 - name: composer
   version: 1.4.2
+- name: nginx
+  version: 1.13.1
 url_to_dependency_map:
 - match: newrelic-php5-(\d+\.\d+\.\d+\.\d+)-linux
   name: newrelic
@@ -38,22 +38,27 @@ dependency_deprecation_dates:
   version_line: '5.6'
   name: php
   date: 2018-12-31
+  link: http://php.net/supported-versions.php
 - match: 7.0.\d+
   version_line: '7.0'
   name: php
   date: 2018-12-03
+  link: http://php.net/supported-versions.php
 - match: 7.1.\d+
   version_line: '7.1'
   name: php
   date: 2019-12-01
+  link: http://php.net/supported-versions.php
 - match: 6.3.0.161
   version_line: 6.3.0.161
   name: newrelic
   date: 2019-05-18
+  link: https://docs.newrelic.com/docs/agents/manage-apm-agents/maintenance/new-relic-agent-plugin-end-life-policy
 - match: 1.10.\d+
   version_line: '1.10'
   name: nginx
   date: 2017-04-26
+  link: https://www.nginx.com/blog/nginx-1-10-1-11-released/
 dependencies:
 - name: newrelic
   version: 6.3.0.161
@@ -63,16 +68,402 @@ dependencies:
   md5: 3640d3cad6b5199f54a6b54a627235d6
 - name: httpd
   version: 2.4.25
-  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/httpd/httpd-2.4.25-linux-x64-f687973e.tgz
-  cf_stacks:
-  - opensuse42
-  md5: f687973e8fae67a5fc4de4ad50042f36
-- name: httpd
-  version: 2.4.25
   uri: https://buildpacks.cloudfoundry.org/dependencies/httpd/httpd-2.4.25-linux-x64-bf8851c4.tgz
   cf_stacks:
   - cflinuxfs2
   md5: bf8851c45e4ef8279ae0daadc833c99e
+- name: php
+  version: 5.6.30
+  uri: https://buildpacks.cloudfoundry.org/dependencies/php/php-5.6.30-linux-x64-985f55e6.tgz
+  md5: 985f55e62744e17cd45d1e347c424aa2
+  cf_stacks:
+  - cflinuxfs2
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - gearman
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ioncube
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - memcache
+  - memcached
+  - mongo
+  - mongodb
+  - msgpack
+  - mssql
+  - mysql
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_dblib
+  - pdo_mysql
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phalcon
+  - phpiredis
+  - protobuf
+  - protocolbuffers
+  - pspell
+  - rdkafka
+  - readline
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - suhosin
+  - sundown
+  - twig
+  - xcache
+  - xdebug
+  - xhprof
+  - xsl
+  - yaf
+  - zip
+  - zlib
+- name: php
+  version: 5.6.29
+  uri: https://buildpacks.cloudfoundry.org/dependencies/php/php-5.6.29-linux-x64-3c75917b.tgz
+  md5: 3c75917bd93dffabb89933cedceff081
+  cf_stacks:
+  - cflinuxfs2
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - gearman
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ioncube
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - memcache
+  - memcached
+  - mongo
+  - mongodb
+  - msgpack
+  - mssql
+  - mysql
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_dblib
+  - pdo_mysql
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phalcon
+  - phpiredis
+  - protobuf
+  - protocolbuffers
+  - pspell
+  - rdkafka
+  - readline
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - suhosin
+  - sundown
+  - twig
+  - xcache
+  - xdebug
+  - xhprof
+  - xsl
+  - yaf
+  - zip
+  - zlib
+- name: php
+  version: 7.0.19
+  uri: https://buildpacks.cloudfoundry.org/dependencies/php7/php7-7.0.19-linux-x64-13ad6405.tgz
+  md5: 13ad640501be5dcb0feba6bdbaeaa5cf
+  cf_stacks:
+  - cflinuxfs2
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ioncube
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - mongodb
+  - msgpack
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_mysql
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phalcon
+  - phpiredis
+  - pspell
+  - rdkafka
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - xdebug
+  - xsl
+  - yaf
+  - zip
+  - zlib
+- name: php
+  version: 7.0.18
+  uri: https://buildpacks.cloudfoundry.org/dependencies/php7/php7-7.0.18-linux-x64-01f33f92.tgz
+  md5: 01f33f926800a9368b9b9a9bd7d25261
+  cf_stacks:
+  - cflinuxfs2
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ioncube
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - mongodb
+  - msgpack
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_mysql
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phalcon
+  - phpiredis
+  - pspell
+  - rdkafka
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - xdebug
+  - xsl
+  - yaf
+  - zip
+  - zlib
+- name: php
+  version: 7.1.4
+  uri: https://buildpacks.cloudfoundry.org/dependencies/php7/php7-7.1.4-linux-x64-91575c84.tgz
+  md5: 91575c84f97a007d8bd950c46ebecf89
+  cf_stacks:
+  - cflinuxfs2
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - mongodb
+  - msgpack
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_mysql
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phpiredis
+  - pspell
+  - rdkafka
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - xdebug
+  - xsl
+  - yaf
+  - zip
+  - zlib
+- name: php
+  version: 7.1.5
+  uri: https://buildpacks.cloudfoundry.org/dependencies/php7/php7-7.1.5-linux-x64-9577da1f.tgz
+  md5: 9577da1f088e258b086f4e32af200625
+  cf_stacks:
+  - cflinuxfs2
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - mongodb
+  - msgpack
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_mysql
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phpiredis
+  - pspell
+  - rdkafka
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - xdebug
+  - xsl
+  - yaf
+  - zip
+  - zlib
+- name: nginx
+  version: 1.10.3
+  uri: https://buildpacks.cloudfoundry.org/dependencies/nginx/nginx-1.10.3-linux-x64-8619f7db.tgz
+  md5: 8619f7db4c1249e66b74235922b36b12
+  cf_stacks:
+  - cflinuxfs2
+- name: nginx
+  version: 1.11.13
+  uri: https://buildpacks.cloudfoundry.org/dependencies/nginx/nginx-1.11.13-linux-x64-0ae5f6fb.tgz
+  md5: 0ae5f6fbae17cffb087fea4b9518b4f7
+  cf_stacks:
+  - cflinuxfs2
+- name: nginx
+  version: 1.12.0
+  uri: https://buildpacks.cloudfoundry.org/dependencies/nginx/nginx-1.12.0-linux-x64-2206fa65.tgz
+  md5: 2206fa655081d6638f97afaf63b4a879
+  cf_stacks:
+  - cflinuxfs2
+- name: composer
+  version: 1.4.2
+  uri: https://buildpacks.cloudfoundry.org/dependencies/composer/composer-1.4.2-3a1d1c6c.phar
+  md5: 3a1d1c6cdccb462405eee5db90fcbd39
+  cf_stacks:
+  - cflinuxfs2
+- name: nginx
+  version: 1.13.1
+  uri: https://buildpacks.cloudfoundry.org/dependencies/nginx/nginx-1.13.1-linux-x64-6178c85f.tgz
+  md5: 6178c85f0cff4e1e7540890f5d927f0f
+  cf_stacks:
+  - cflinuxfs2
+- name: composer
+  version: 1.4.2
+  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/composer/composer-1.4.2-3a1d1c6c.phar
+  md5: 3a1d1c6cdccb462405eee5db90fcbd39
+  cf_stacks:
+    - opensuse42
+- name: httpd
+  version: 2.4.25
+  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/httpd/httpd-2.4.25-linux-x64-f687973e.tgz
+  cf_stacks:
+  - opensuse42
+  md5: f687973e8fae67a5fc4de4ad50042f36
 - name: php
   version: 5.6.30
   uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/php/php-5.6.30-linux-x64-bce3fa92.tgz
@@ -142,129 +533,6 @@ dependencies:
   - zip
   - zlib
 - name: php
-  version: 5.6.30
-  uri: https://buildpacks.cloudfoundry.org/dependencies/php/php-5.6.30-linux-x64-13625eaa.tgz
-  md5: 13625eaad6f5b237fdb45871dfb91b5f
-  cf_stacks:
-  - cflinuxfs2
-  modules:
-  - amqp
-  - apcu
-  - bz2
-  - cassandra
-  - curl
-  - dba
-  - exif
-  - fileinfo
-  - ftp
-  - gd
-  - gearman
-  - geoip
-  - gettext
-  - gmp
-  - igbinary
-  - imagick
-  - imap
-  - ioncube
-  - ldap
-  - lua
-  - mailparse
-  - mbstring
-  - mcrypt
-  - memcache
-  - memcached
-  - mongo
-  - mongodb
-  - msgpack
-  - mssql
-  - mysql
-  - mysqli
-  - opcache
-  - openssl
-  - pcntl
-  - pdo
-  - pdo_dblib
-  - pdo_mysql
-  - pdo_pgsql
-  - pdo_sqlite
-  - pgsql
-  - phalcon
-  - phpiredis
-  - protobuf
-  - protocolbuffers
-  - pspell
-  - rdkafka
-  - readline
-  - redis
-  - snmp
-  - soap
-  - sockets
-  - solr
-  - suhosin
-  - sundown
-  - twig
-  - xcache
-  - xdebug
-  - xhprof
-  - xsl
-  - yaf
-  - zip
-  - zlib
-- name: php
-  version: 7.0.17
-  uri: https://buildpacks.cloudfoundry.org/dependencies/php7/php7-7.0.17-linux-x64-9d95e456.tgz
-  md5: 9d95e45600c0a58934f3622969b30d7f
-  cf_stacks:
-  - cflinuxfs2
-  modules:
-  - amqp
-  - apcu
-  - bz2
-  - cassandra
-  - curl
-  - dba
-  - exif
-  - fileinfo
-  - ftp
-  - gd
-  - geoip
-  - gettext
-  - gmp
-  - igbinary
-  - imagick
-  - imap
-  - ioncube
-  - ldap
-  - lua
-  - mailparse
-  - mbstring
-  - mcrypt
-  - mongodb
-  - msgpack
-  - mysqli
-  - opcache
-  - openssl
-  - pcntl
-  - pdo
-  - pdo_mysql
-  - pdo_pgsql
-  - pdo_sqlite
-  - pgsql
-  - phalcon
-  - phpiredis
-  - pspell
-  - rdkafka
-  - redis
-  - snmp
-  - soap
-  - sockets
-  - solr
-  - xdebug
-  - xsl
-  - yaf
-  - zip
-  - zlib
-- name: php
   version: 7.1.2
   uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/php7/php7-7.1.2-linux-x64-f450e08a.tgz
   md5: f450e08ab6bb788b5cd0175c83701110
@@ -316,73 +584,3 @@ dependencies:
   - yaf
   - zip
   - zlib
-- name: php
-  version: 7.1.3
-  uri: https://buildpacks.cloudfoundry.org/dependencies/php7/php7-7.1.3-linux-x64-9f0e392d.tgz
-  md5: 9f0e392d4706898b481a5638a60fcabc
-  cf_stacks:
-  - cflinuxfs2
-  modules:
-  - amqp
-  - apcu
-  - bz2
-  - cassandra
-  - curl
-  - dba
-  - exif
-  - fileinfo
-  - ftp
-  - gd
-  - geoip
-  - gettext
-  - gmp
-  - igbinary
-  - imagick
-  - imap
-  - ldap
-  - lua
-  - mailparse
-  - mbstring
-  - mcrypt
-  - mongodb
-  - msgpack
-  - mysqli
-  - opcache
-  - openssl
-  - pcntl
-  - pdo
-  - pdo_mysql
-  - pdo_pgsql
-  - pdo_sqlite
-  - pgsql
-  - phpiredis
-  - pspell
-  - rdkafka
-  - redis
-  - snmp
-  - soap
-  - sockets
-  - solr
-  - xdebug
-  - xsl
-  - yaf
-  - zip
-  - zlib
-- name: nginx
-  version: 1.11.13
-  uri: https://buildpacks.cloudfoundry.org/dependencies/nginx/nginx-1.11.13-linux-x64-0ae5f6fb.tgz
-  md5: 0ae5f6fbae17cffb087fea4b9518b4f7
-  cf_stacks:
-  - cflinuxfs2
-- name: nginx
-  version: 1.12.0
-  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/nginx/nginx-1.12.0-linux-x64-1031cb05.tgz
-  md5: 1031cb05cc97157ac6c0ea04e84990d0
-  cf_stacks:
-  - opensuse42
-- name: composer
-  version: 1.4.2
-  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/composer/composer-1.4.2-3a1d1c6c.phar
-  md5: 3a1d1c6cdccb462405eee5db90fcbd39
-  cf_stacks:
-  - opensuse42
