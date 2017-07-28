@@ -454,25 +454,25 @@ dependencies:
   - cflinuxfs2
 - name: nginx
   version: 1.13.1
-  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/nginx/nginx-1.13.1-linux-x64-284cedd7.tgz
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/nginx/nginx-1.13.1-linux-x64-284cedd7.tgz
   md5: 284cedd70b16b31d509fdcb1dd630b17
   cf_stacks:
   - opensuse42
 - name: composer
   version: 1.4.2
-  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/composer/composer-1.4.2-3a1d1c6c.phar
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/composer/composer-1.4.2-3a1d1c6c.phar
   md5: 3a1d1c6cdccb462405eee5db90fcbd39
   cf_stacks:
   - opensuse42
 - name: httpd
   version: 2.4.25
-  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/httpd/httpd-2.4.25-linux-x64-f687973e.tgz
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/httpd/httpd-2.4.25-linux-x64-f687973e.tgz
   cf_stacks:
   - opensuse42
   md5: f687973e8fae67a5fc4de4ad50042f36
 - name: php
   version: 5.6.30
-  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/php/php-5.6.30-linux-x64-bce3fa92.tgz
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php/php-5.6.30-linux-x64-bce3fa92.tgz
   md5: bce3fa92245f6f0c4607ef575f661f6a
   cf_stacks:
   - opensuse42
@@ -540,7 +540,7 @@ dependencies:
   - zlib
 - name: php
   version: 7.1.2
-  uri: https://minio.from-the.cloud:9000/cf-buildpacks/dependencies/php7/php7-7.1.2-linux-x64-f450e08a.tgz
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.1.2-linux-x64-f450e08a.tgz
   md5: f450e08ab6bb788b5cd0175c83701110
   cf_stacks:
   - opensuse42
