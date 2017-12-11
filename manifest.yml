@@ -85,6 +85,18 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   sha256: 689e1bd28170ff2c16bd6bc38f6a55fe76d8969a2a58567d58ca9836f2dab96f
+- name: httpd
+  version: 2.4.29
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/httpd/httpd-2.4.29-linux-x64-638a797d.tgz
+  cf_stacks:
+  - opensuse42
+  sha256: b2d573e980e28b9c344a22d49e9d02cbeac7c426ad152bd0b6221e9a7154a2e2
+- name: httpd
+  version: 2.4.29
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/httpd/httpd-2.4.29-linux-x64-f2e94f70.tgz
+  cf_stacks:
+  - sle12
+  sha256: c41e965f52b669f5029ac942546f57772d0058ef67a605bf40d8c3212b407fdb
 - name: php
   version: 5.6.32
   uri: https://buildpacks.cloudfoundry.org/dependencies/php/php-5.6.32-linux-x64-9acd573d.tgz
@@ -156,6 +168,146 @@ dependencies:
   - zlib
   sha256: 9acd573d5f040502057b5943993d365f3383e0d3417052c2cd86acb4993d3bbc
 - name: php
+  version: 5.6.32
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php/php-5.6.32-linux-x64-200e74f7.tgz
+  cf_stacks:
+  - opensuse42
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - gearman
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ioncube
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - memcache
+  - memcached
+  - mongo
+  - mongodb
+  - msgpack
+  - mssql
+  - mysql
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_dblib
+  - pdo_mysql
+  - pdo_odbc
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phalcon
+  - phpiredis
+  - protobuf
+  - protocolbuffers
+  - pspell
+  - rdkafka
+  - readline
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - suhosin
+  - sundown
+  - twig
+  - xcache
+  - xdebug
+  - xhprof
+  - xsl
+  - yaf
+  - zip
+  - zlib
+  sha256: 08f90aff162dff0f4ef5b8daa7e1b1179f993c70b200036d0ade8178607297c9
+- name: php
+  version: 5.6.32
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.32-linux-x64-2189f64a.tgz
+  cf_stacks:
+  - sle12
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - gearman
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ioncube
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - memcache
+  - memcached
+  - mongo
+  - mongodb
+  - msgpack
+  - mssql
+  - mysql
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_dblib
+  - pdo_mysql
+  - pdo_odbc
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phalcon
+  - phpiredis
+  - protobuf
+  - protocolbuffers
+  - pspell
+  - rdkafka
+  - readline
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - suhosin
+  - sundown
+  - twig
+  - xcache
+  - xdebug
+  - xhprof
+  - xsl
+  - yaf
+  - zip
+  - zlib
+  sha256: 1301dcb219cd84e22e281cfcf428bd9365243951952489c68b3189525f35c9b8
+- name: php
   version: 5.6.31
   uri: https://buildpacks.cloudfoundry.org/dependencies/php/php-5.6.31-linux-x64-8fda94cb.tgz
   cf_stacks:
@@ -226,6 +378,146 @@ dependencies:
   - zlib
   sha256: 155e72fc4112e3e5f8bcb51c2fde0294e94d43182923c7eaaf6c3b50991e98e4
 - name: php
+  version: 5.6.31
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php/php-5.6.31-linux-x64-67103df8.tgz
+  cf_stacks:
+  - opensuse42
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - gearman
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ioncube
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - memcache
+  - memcached
+  - mongo
+  - mongodb
+  - msgpack
+  - mssql
+  - mysql
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_dblib
+  - pdo_mysql
+  - pdo_odbc
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phalcon
+  - phpiredis
+  - protobuf
+  - protocolbuffers
+  - pspell
+  - rdkafka
+  - readline
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - suhosin
+  - sundown
+  - twig
+  - xcache
+  - xdebug
+  - xhprof
+  - xsl
+  - yaf
+  - zip
+  - zlib
+  sha256: 866661cf35698acb6d537f0e16a1ba1197b96917f945e37cf2a3146bc200fc9d
+- name: php
+  version: 5.6.31
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.31-linux-x64-979ee8f9.tgz
+  cf_stacks:
+  - sle12
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - gearman
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ioncube
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - memcache
+  - memcached
+  - mongo
+  - mongodb
+  - msgpack
+  - mssql
+  - mysql
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_dblib
+  - pdo_mysql
+  - pdo_odbc
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phalcon
+  - phpiredis
+  - protobuf
+  - protocolbuffers
+  - pspell
+  - rdkafka
+  - readline
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - suhosin
+  - sundown
+  - twig
+  - xcache
+  - xdebug
+  - xhprof
+  - xsl
+  - yaf
+  - zip
+  - zlib
+  sha256: 1f7a5f26744870da9079d70d04988142244ec8736864fa840ba2782835f4eaeb
+- name: php
   version: 7.0.25
   uri: https://buildpacks.cloudfoundry.org/dependencies/php7/php7-7.0.25-linux-x64-26dc6c67.tgz
   cf_stacks:
@@ -280,6 +572,116 @@ dependencies:
   - zip
   - zlib
   sha256: 26dc6c6734251ad99bcc23afdcbc1876e9a4e054f8f2d4def43c8bb8a239bc5a
+- name: php
+  version: 7.0.25
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.0.25-linux-x64-dab1b360.tgz
+  cf_stacks:
+  - opensuse42
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ioncube
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - mongodb
+  - msgpack
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_mysql
+  - pdo_odbc
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phalcon
+  - phpiredis
+  - pspell
+  - rdkafka
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - xdebug
+  - xsl
+  - yaf
+  - zip
+  - zlib
+  sha256: 2fdafd64ec1357c4faa371afe35fd8fa10f27140d9c1c787d74dacfaa565784f
+- name: php
+  version: 7.0.25
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.0.25-linux-x64-a2bb8c60.tgz
+  cf_stacks:
+  - sle12
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ioncube
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - mongodb
+  - msgpack
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_mysql
+  - pdo_odbc
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phalcon
+  - phpiredis
+  - pspell
+  - rdkafka
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - xdebug
+  - xsl
+  - yaf
+  - zip
+  - zlib
+  sha256: fc30e9151c1db8662722a2b12dcde6412309abd38f55bbfc9e593d36058e15ae
 - name: php
   version: 7.0.26
   uri: https://buildpacks.cloudfoundry.org/dependencies/php7/php7-7.0.26-linux-x64-7c79acad.tgz
@@ -336,6 +738,116 @@ dependencies:
   - zlib
   sha256: 7c79acad361205e90fff7661cd02bfe9e5f8520de13d44698a6b05a057dd4918
 - name: php
+  version: 7.0.26
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.0.26-linux-x64-fd4a492e.tgz
+  cf_stacks:
+  - opensuse42
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ioncube
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - mongodb
+  - msgpack
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_mysql
+  - pdo_odbc
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phalcon
+  - phpiredis
+  - pspell
+  - rdkafka
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - xdebug
+  - xsl
+  - yaf
+  - zip
+  - zlib
+  sha256: 810e756965c9e52e4397a90c7550ad02f3b3f2c56471c7965e23e59984540a8d
+- name: php
+  version: 7.0.26
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.0.26-linux-x64-df8e95a2.tgz
+  cf_stacks:
+  - sle12
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ioncube
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - mongodb
+  - msgpack
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_mysql
+  - pdo_odbc
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phalcon
+  - phpiredis
+  - pspell
+  - rdkafka
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - xdebug
+  - xsl
+  - yaf
+  - zip
+  - zlib
+  sha256: 45130566d5e0cffe5552512877f7a83a6d2bc5e4613e9936b13ab6d3dcd77e36
+- name: php
   version: 7.1.12
   uri: https://buildpacks.cloudfoundry.org/dependencies/php7/php7-7.1.12-linux-x64-ed709ac1.tgz
   cf_stacks:
@@ -389,6 +901,112 @@ dependencies:
   - zlib
   sha256: ed709ac1382ddcd8636ce1d886dd13d5f6152975b4cfbb9d41d8c22b457b38d9
 - name: php
+  version: 7.1.12
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.1.12-linux-x64-3ac00aa3.tgz
+  cf_stacks:
+  - opensuse42
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - mongodb
+  - msgpack
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_mysql
+  - pdo_odbc
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phpiredis
+  - pspell
+  - rdkafka
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - xdebug
+  - xsl
+  - yaf
+  - zip
+  - zlib
+  sha256: 66c11a3296d9ffe2370ad2dd414c08758983f9610f6486b4b0402ab52d35ba26
+- name: php
+  version: 7.1.12
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.1.12-linux-x64-266ef7ab.tgz
+  cf_stacks:
+  - sle12
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - mongodb
+  - msgpack
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_mysql
+  - pdo_odbc
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phpiredis
+  - pspell
+  - rdkafka
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - xdebug
+  - xsl
+  - yaf
+  - zip
+  - zlib
+  sha256: 4fe3839d5612503b854fcac218714cbc98f8407fcc99427712edeccc90c9110c
+- name: php
   version: 7.1.11
   uri: https://buildpacks.cloudfoundry.org/dependencies/php7/php7-7.1.11-linux-x64-c6ec90cd.tgz
   cf_stacks:
@@ -441,6 +1059,112 @@ dependencies:
   - zip
   - zlib
   sha256: c6ec90cd654a65c8397bd648e6f79d4133f9b79fcef8733fc1f24a2d661e623b
+- name: php
+  version: 7.1.11
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.1.11-linux-x64-76af83b1.tgz
+  cf_stacks:
+  - opensuse42
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - mongodb
+  - msgpack
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_mysql
+  - pdo_odbc
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phpiredis
+  - pspell
+  - rdkafka
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - xdebug
+  - xsl
+  - yaf
+  - zip
+  - zlib
+  sha256: 0f8ccac58f759d81da1f23b77e881c30d3b0e41b3d09c0fbdda4800f8bbab1fd
+- name: php
+  version: 7.1.11
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.1.11-linux-x64-e39aa6d7.tgz
+  cf_stacks:
+  - sle12
+  modules:
+  - amqp
+  - apcu
+  - bz2
+  - cassandra
+  - curl
+  - dba
+  - exif
+  - fileinfo
+  - ftp
+  - gd
+  - geoip
+  - gettext
+  - gmp
+  - igbinary
+  - imagick
+  - imap
+  - ldap
+  - lua
+  - mailparse
+  - mbstring
+  - mcrypt
+  - mongodb
+  - msgpack
+  - mysqli
+  - opcache
+  - openssl
+  - pcntl
+  - pdo
+  - pdo_mysql
+  - pdo_odbc
+  - pdo_pgsql
+  - pdo_sqlite
+  - pgsql
+  - phpiredis
+  - pspell
+  - rdkafka
+  - redis
+  - snmp
+  - soap
+  - sockets
+  - solr
+  - xdebug
+  - xsl
+  - yaf
+  - zip
+  - zlib
+  sha256: 1fdb4018406ae27ee94bd6c902e4620a0092deb18da1d8adcf68465f25aca332
 - name: nginx
   version: 1.12.2
   uri: https://buildpacks.cloudfoundry.org/dependencies/nginx/nginx-1.12.2-linux-x64-60e5d131.tgz
@@ -448,14 +1172,50 @@ dependencies:
   - cflinuxfs2
   sha256: f7815e32b5cb8b81562e7dbff36182aa864e596d31f520adab349edb62e2ad15
 - name: nginx
+  version: 1.12.2
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/nginx/nginx-1.12.2-linux-x64-8ca23e85.tgz
+  cf_stacks:
+  - opensuse42
+  sha256: 9fcd703303b20ed913a6276737006a72431083ddff59866c7b005bea972102ab
+- name: nginx
+  version: 1.12.2
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/nginx/nginx-1.12.2-linux-x64-1ac64c69.tgz
+  cf_stacks:
+  - sle12
+  sha256: e01a9653a68368b85b4c1fdd9a3b4864597500f9e3818e676ad052f2195c8f55
+- name: nginx
   version: 1.13.7
   uri: https://buildpacks.cloudfoundry.org/dependencies/nginx/nginx-1.13.7-linux-x64-95aff9ab.tgz
   sha256: 95aff9ab96c23cb1d1c6a9264870b23c7526933c4529ceceb32a8059f542f236
   cf_stacks:
   - cflinuxfs2
+- name: nginx
+  version: 1.13.7
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/nginx/nginx-1.13.7-linux-x64-e92b86a2.tgz
+  sha256: f0f5ff260e8357efbe9068473f92990ec64ab4212469d59fe8882fea0698dbab
+  cf_stacks:
+  - opensuse42
+- name: nginx
+  version: 1.13.7
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/nginx/nginx-1.13.7-linux-x64-80de3add.tgz
+  sha256: 7e0e03646058b01164f988d28320e50c6eee2a3122c034fbf0ba40b02cfd5ec5
+  cf_stacks:
+  - sle12
 - name: composer
   version: 1.5.5
   uri: https://buildpacks.cloudfoundry.org/dependencies/composer/composer-1.5.5-8ef8c4fb.phar
   sha256: 8ef8c4fb73c8cc1e950119799aec31e0ae5913dab8dd8f53d9c2e3985ac3ad2b
   cf_stacks:
   - cflinuxfs2
+- name: composer
+  version: 1.5.5
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/composer/composer-1.5.5-f847982b.phar
+  sha256: 8ef8c4fb73c8cc1e950119799aec31e0ae5913dab8dd8f53d9c2e3985ac3ad2b
+  cf_stacks:
+  - opensuse42
+- name: composer
+  version: 1.5.5
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/composer/composer-1.5.5-f847982b.phar
+  sha256: 8ef8c4fb73c8cc1e950119799aec31e0ae5913dab8dd8f53d9c2e3985ac3ad2b
+  cf_stacks:
+  - sle12
