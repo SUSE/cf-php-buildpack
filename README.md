@@ -114,7 +114,7 @@ Included non-core extensions:
     - `license`
     - `products`
 - [`newrelic`](extensions/newrelic) - [Downloads, installs and configures the NewRelic agent for PHP](http://docs.cloudfoundry.org/buildpacks/php/gsg-php-newrelic.html)
-- [`session`](extensions/session) - [Configures PHP to store session information in a bound Redis or Memcached service instance](http://docs.cloudfoundry.org/buildpacks/php/gsg-php-sessions.html) 
+- [`session`](extensions/session) - [Configures PHP to store session information in a bound Redis or Memcached service instance](http://docs.cloudfoundry.org/buildpacks/php/gsg-php-sessions.html)
 
 ### Adding extensions
 
@@ -133,7 +133,7 @@ def configure(ctx):
     pass
 ```
 
-The `configure` method gives extension authors a chance to adjust the configuration of the buildpack prior to *any* extensions running.  The method is called very early on in the lifecycle of the buildpack, so keep this in mind when using this method.  The purpose of this method is to allow an extension author the opportunity to modify the configuration for PHP, the web server or another extension prior to those components being installed.  
+The `configure` method gives extension authors a chance to adjust the configuration of the buildpack prior to *any* extensions running.  The method is called very early on in the lifecycle of the buildpack, so keep this in mind when using this method.  The purpose of this method is to allow an extension author the opportunity to modify the configuration for PHP, the web server or another extension prior to those components being installed.
 
 An example of when to use this method would be to adjust the list of PHP extensions that are going to be installed.
 
@@ -167,7 +167,7 @@ def service_environment(ctx):
 
 The `service_environment` method gives extension authors the ability to contribute environment variables that will be set and available to the services.
 
-The method takes the buildpack context as its argument and should return a dictionary of the environment variables to be added to the environment where services (see `service_commands`) are executed.  
+The method takes the buildpack context as its argument and should return a dictionary of the environment variables to be added to the environment where services (see `service_commands`) are executed.
 
 The key should be the variable name and the value should be the value.  The value can either be a string, in which case the environment variable will be set with the value of the string or it can be a list.
 
@@ -259,7 +259,7 @@ def compile(install):
 
 ### Help and Support
 
-Join the #buildpacks channel in our [Slack community](http://slack.cloudfoundry.org/) 
+Join the #buildpacks channel in our [Slack community](http://slack.cloudfoundry.org/)
 
 ### Reporting Issues
 
