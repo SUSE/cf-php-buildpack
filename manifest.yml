@@ -169,7 +169,7 @@ dependencies:
   sha256: 9acd573d5f040502057b5943993d365f3383e0d3417052c2cd86acb4993d3bbc
 - name: php
   version: 5.6.32
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php/php-5.6.32-linux-x64-200e74f7.tgz
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php/php-5.6.32-linux-x64-7bd8b1c3.tgz
   cf_stacks:
   - opensuse42
   modules:
@@ -190,7 +190,6 @@ dependencies:
   - igbinary
   - imagick
   - imap
-  - ioncube
   - ldap
   - lua
   - mailparse
@@ -236,10 +235,10 @@ dependencies:
   - yaf
   - zip
   - zlib
-  sha256: 08f90aff162dff0f4ef5b8daa7e1b1179f993c70b200036d0ade8178607297c9
+  sha256: ea1954141e5fe6f181a5fce85b2ade7e95daa4f9d5d3b7ddb981a25abf1f0c72
 - name: php
   version: 5.6.32
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.32-linux-x64-2189f64a.tgz
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.32-linux-x64-ef39bb38.tgz
   cf_stacks:
   - sle12
   modules:
@@ -260,7 +259,6 @@ dependencies:
   - igbinary
   - imagick
   - imap
-  - ioncube
   - ldap
   - lua
   - mailparse
@@ -306,7 +304,7 @@ dependencies:
   - yaf
   - zip
   - zlib
-  sha256: 1301dcb219cd84e22e281cfcf428bd9365243951952489c68b3189525f35c9b8
+  sha256: 8bdeb1f2ca19e5012e6f264ef349f5af253dacc85fe531f8ff99c851c76052e7
 - name: php
   version: 5.6.31
   uri: https://buildpacks.cloudfoundry.org/dependencies/php/php-5.6.31-linux-x64-8fda94cb.tgz
@@ -379,7 +377,7 @@ dependencies:
   sha256: 155e72fc4112e3e5f8bcb51c2fde0294e94d43182923c7eaaf6c3b50991e98e4
 - name: php
   version: 5.6.31
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php/php-5.6.31-linux-x64-67103df8.tgz
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php/php-5.6.31-linux-x64-efb1ce2a.tgz
   cf_stacks:
   - opensuse42
   modules:
@@ -400,7 +398,6 @@ dependencies:
   - igbinary
   - imagick
   - imap
-  - ioncube
   - ldap
   - lua
   - mailparse
@@ -446,10 +443,10 @@ dependencies:
   - yaf
   - zip
   - zlib
-  sha256: 866661cf35698acb6d537f0e16a1ba1197b96917f945e37cf2a3146bc200fc9d
+  sha256: 3a09b5bb33b229cf962271cbfa8a6b71f23683d158c9fa2b9e05ef864bef693f
 - name: php
   version: 5.6.31
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.31-linux-x64-979ee8f9.tgz
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.31-linux-x64-5824eab6.tgz
   cf_stacks:
   - sle12
   modules:
@@ -470,7 +467,6 @@ dependencies:
   - igbinary
   - imagick
   - imap
-  - ioncube
   - ldap
   - lua
   - mailparse
@@ -516,7 +512,7 @@ dependencies:
   - yaf
   - zip
   - zlib
-  sha256: 1f7a5f26744870da9079d70d04988142244ec8736864fa840ba2782835f4eaeb
+  sha256: 6faa3f0513dcd70c21099748fa3678a80e93c4fcbae114fb70bfe2fdf4449b5b
 - name: php
   version: 7.0.25
   uri: https://buildpacks.cloudfoundry.org/dependencies/php7/php7-7.0.25-linux-x64-26dc6c67.tgz
@@ -574,7 +570,7 @@ dependencies:
   sha256: 26dc6c6734251ad99bcc23afdcbc1876e9a4e054f8f2d4def43c8bb8a239bc5a
 - name: php
   version: 7.0.25
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.0.25-linux-x64-dab1b360.tgz
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.0.25-linux-x64-3d509781.tgz
   cf_stacks:
   - opensuse42
   modules:
@@ -594,7 +590,6 @@ dependencies:
   - igbinary
   - imagick
   - imap
-  - ioncube
   - ldap
   - lua
   - mailparse
@@ -626,10 +621,10 @@ dependencies:
   - yaf
   - zip
   - zlib
-  sha256: 2fdafd64ec1357c4faa371afe35fd8fa10f27140d9c1c787d74dacfaa565784f
+  sha256: 0f97b42b9d4563d1ce2df1642d516a522562800256c23d845e7e0cb6f755eb9e
 - name: php
   version: 7.0.25
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.0.25-linux-x64-a2bb8c60.tgz
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.0.25-linux-x64-80a4c1b1.tgz
   cf_stacks:
   - sle12
   modules:
@@ -649,7 +644,6 @@ dependencies:
   - igbinary
   - imagick
   - imap
-  - ioncube
   - ldap
   - lua
   - mailparse
@@ -681,7 +675,7 @@ dependencies:
   - yaf
   - zip
   - zlib
-  sha256: fc30e9151c1db8662722a2b12dcde6412309abd38f55bbfc9e593d36058e15ae
+  sha256: 128eb7da1c652544ccc1ce88ac4d6284fb0ea2ab2aaea251066c8e3eeaba8492
 - name: php
   version: 7.0.26
   uri: https://buildpacks.cloudfoundry.org/dependencies/php7/php7-7.0.26-linux-x64-7c79acad.tgz
@@ -739,7 +733,7 @@ dependencies:
   sha256: 7c79acad361205e90fff7661cd02bfe9e5f8520de13d44698a6b05a057dd4918
 - name: php
   version: 7.0.26
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.0.26-linux-x64-fd4a492e.tgz
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.0.26-linux-x64-56fcd79f.tgz
   cf_stacks:
   - opensuse42
   modules:
@@ -759,7 +753,6 @@ dependencies:
   - igbinary
   - imagick
   - imap
-  - ioncube
   - ldap
   - lua
   - mailparse
@@ -791,10 +784,10 @@ dependencies:
   - yaf
   - zip
   - zlib
-  sha256: 810e756965c9e52e4397a90c7550ad02f3b3f2c56471c7965e23e59984540a8d
+  sha256: 3a06a9349b3f744e10bafe2cc73a0914a31851b2196ca49247ac301ede2c1f6b
 - name: php
   version: 7.0.26
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.0.26-linux-x64-df8e95a2.tgz
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.0.26-linux-x64-ffdc30c5.tgz
   cf_stacks:
   - sle12
   modules:
@@ -814,7 +807,6 @@ dependencies:
   - igbinary
   - imagick
   - imap
-  - ioncube
   - ldap
   - lua
   - mailparse
@@ -846,7 +838,7 @@ dependencies:
   - yaf
   - zip
   - zlib
-  sha256: 45130566d5e0cffe5552512877f7a83a6d2bc5e4613e9936b13ab6d3dcd77e36
+  sha256: a749d5ff30af42ebe5d115e6adf416ee8de7b460eb491427be5b9d2a9f78ab07
 - name: php
   version: 7.1.12
   uri: https://buildpacks.cloudfoundry.org/dependencies/php7/php7-7.1.12-linux-x64-ed709ac1.tgz
@@ -902,7 +894,7 @@ dependencies:
   sha256: ed709ac1382ddcd8636ce1d886dd13d5f6152975b4cfbb9d41d8c22b457b38d9
 - name: php
   version: 7.1.12
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.1.12-linux-x64-3ac00aa3.tgz
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.1.12-linux-x64-88c106e6.tgz
   cf_stacks:
   - opensuse42
   modules:
@@ -952,10 +944,10 @@ dependencies:
   - yaf
   - zip
   - zlib
-  sha256: 66c11a3296d9ffe2370ad2dd414c08758983f9610f6486b4b0402ab52d35ba26
+  sha256: 97497d627a4127f16961d1c81d509e02cabed1e1795c6fa8ff1435de926836bd
 - name: php
   version: 7.1.12
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.1.12-linux-x64-266ef7ab.tgz
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.1.12-linux-x64-c348b6d7.tgz
   cf_stacks:
   - sle12
   modules:
@@ -1005,7 +997,7 @@ dependencies:
   - yaf
   - zip
   - zlib
-  sha256: 4fe3839d5612503b854fcac218714cbc98f8407fcc99427712edeccc90c9110c
+  sha256: 41698f2c148a0a47948513372287a0a89020fdbb1daf453bac4ea4541d45db4f
 - name: php
   version: 7.1.11
   uri: https://buildpacks.cloudfoundry.org/dependencies/php7/php7-7.1.11-linux-x64-c6ec90cd.tgz
@@ -1061,7 +1053,7 @@ dependencies:
   sha256: c6ec90cd654a65c8397bd648e6f79d4133f9b79fcef8733fc1f24a2d661e623b
 - name: php
   version: 7.1.11
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.1.11-linux-x64-76af83b1.tgz
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.1.11-linux-x64-3b2a1de8.tgz
   cf_stacks:
   - opensuse42
   modules:
@@ -1111,10 +1103,10 @@ dependencies:
   - yaf
   - zip
   - zlib
-  sha256: 0f8ccac58f759d81da1f23b77e881c30d3b0e41b3d09c0fbdda4800f8bbab1fd
+  sha256: 7793de15d71cbc6aaec9e4ac26f78a06164b4057598a5adc99d4888d69058a5b
 - name: php
   version: 7.1.11
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.1.11-linux-x64-e39aa6d7.tgz
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.1.11-linux-x64-9dc708c2.tgz
   cf_stacks:
   - sle12
   modules:
@@ -1164,7 +1156,7 @@ dependencies:
   - yaf
   - zip
   - zlib
-  sha256: 1fdb4018406ae27ee94bd6c902e4620a0092deb18da1d8adcf68465f25aca332
+  sha256: 3b573b1f23ac7c80767ce1524c3ffc31e401d3c71848fc9c221414c9d5e5b3b1
 - name: nginx
   version: 1.12.2
   uri: https://buildpacks.cloudfoundry.org/dependencies/nginx/nginx-1.12.2-linux-x64-60e5d131.tgz
