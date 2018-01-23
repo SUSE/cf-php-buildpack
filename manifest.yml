@@ -238,7 +238,7 @@ dependencies:
   sha256: ea1954141e5fe6f181a5fce85b2ade7e95daa4f9d5d3b7ddb981a25abf1f0c72
 - name: php
   version: 5.6.32
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.32-linux-x64-ef39bb38.tgz
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.32-linux-x64-b78b945c.tgz
   cf_stacks:
   - sle12
   modules:
@@ -304,7 +304,7 @@ dependencies:
   - yaf
   - zip
   - zlib
-  sha256: 8bdeb1f2ca19e5012e6f264ef349f5af253dacc85fe531f8ff99c851c76052e7
+  sha256: b78b945caaf372192efccd5526e509c83c511b4e857f8b3a57486c5c2f78a345
 - name: php
   version: 5.6.31
   uri: https://buildpacks.cloudfoundry.org/dependencies/php/php-5.6.31-linux-x64-8fda94cb.tgz
