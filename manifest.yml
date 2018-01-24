@@ -238,7 +238,7 @@ dependencies:
   sha256: ea1954141e5fe6f181a5fce85b2ade7e95daa4f9d5d3b7ddb981a25abf1f0c72
 - name: php
   version: 5.6.32
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.32-linux-x64-b78b945c.tgz
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.32-linux-x64-d7b853f7.tgz
   cf_stacks:
   - sle12
   modules:
@@ -304,7 +304,7 @@ dependencies:
   - yaf
   - zip
   - zlib
-  sha256: b78b945caaf372192efccd5526e509c83c511b4e857f8b3a57486c5c2f78a345
+  sha256: d7b853f7b97f0a6839abee06bc14b82ff44a05f2089ca2732a09d1b0846c46b3
 - name: php
   version: 5.6.31
   uri: https://buildpacks.cloudfoundry.org/dependencies/php/php-5.6.31-linux-x64-8fda94cb.tgz
@@ -446,7 +446,7 @@ dependencies:
   sha256: 3a09b5bb33b229cf962271cbfa8a6b71f23683d158c9fa2b9e05ef864bef693f
 - name: php
   version: 5.6.31
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.31-linux-x64-5824eab6.tgz
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.31-linux-x64-274b7466.tgz
   cf_stacks:
   - sle12
   modules:
@@ -512,7 +512,7 @@ dependencies:
   - yaf
   - zip
   - zlib
-  sha256: 6faa3f0513dcd70c21099748fa3678a80e93c4fcbae114fb70bfe2fdf4449b5b
+  sha256: 274b74669e67e53c7d5855cd4d8e5c08bb9a2ce3019b9d5a714a7c94f218c308
 - name: php
   version: 7.0.25
   uri: https://buildpacks.cloudfoundry.org/dependencies/php7/php7-7.0.25-linux-x64-26dc6c67.tgz
@@ -624,7 +624,7 @@ dependencies:
   sha256: 0f97b42b9d4563d1ce2df1642d516a522562800256c23d845e7e0cb6f755eb9e
 - name: php
   version: 7.0.25
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.0.25-linux-x64-80a4c1b1.tgz
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.0.25-linux-x64-af6748fe.tgz
   cf_stacks:
   - sle12
   modules:
@@ -675,7 +675,7 @@ dependencies:
   - yaf
   - zip
   - zlib
-  sha256: 128eb7da1c652544ccc1ce88ac4d6284fb0ea2ab2aaea251066c8e3eeaba8492
+  sha256: af6748fe2a12d12a458b6b882aeaa64fb0bae200e7c47a40940f71801c4d26cf
 - name: php
   version: 7.0.26
   uri: https://buildpacks.cloudfoundry.org/dependencies/php7/php7-7.0.26-linux-x64-7c79acad.tgz
@@ -787,7 +787,7 @@ dependencies:
   sha256: 3a06a9349b3f744e10bafe2cc73a0914a31851b2196ca49247ac301ede2c1f6b
 - name: php
   version: 7.0.26
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.0.26-linux-x64-ffdc30c5.tgz
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.0.26-linux-x64-c7136539.tgz
   cf_stacks:
   - sle12
   modules:
@@ -838,7 +838,7 @@ dependencies:
   - yaf
   - zip
   - zlib
-  sha256: a749d5ff30af42ebe5d115e6adf416ee8de7b460eb491427be5b9d2a9f78ab07
+  sha256: c7136539b5e5b0387a4368baf8674cdf7d6e4cd84dbf0d0a6d76b77a5840b0d7
 - name: php
   version: 7.1.12
   uri: https://buildpacks.cloudfoundry.org/dependencies/php7/php7-7.1.12-linux-x64-ed709ac1.tgz
@@ -947,7 +947,7 @@ dependencies:
   sha256: 97497d627a4127f16961d1c81d509e02cabed1e1795c6fa8ff1435de926836bd
 - name: php
   version: 7.1.12
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.1.12-linux-x64-c348b6d7.tgz
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.1.12-linux-x64-710c71b4.tgz
   cf_stacks:
   - sle12
   modules:
@@ -997,7 +997,7 @@ dependencies:
   - yaf
   - zip
   - zlib
-  sha256: 41698f2c148a0a47948513372287a0a89020fdbb1daf453bac4ea4541d45db4f
+  sha256: 710c71b4fe7654a0dc80dac14b9aa21f8f2aac5974e30403b90d90b1cbe97c7d
 - name: php
   version: 7.1.11
   uri: https://buildpacks.cloudfoundry.org/dependencies/php7/php7-7.1.11-linux-x64-c6ec90cd.tgz
@@ -1106,7 +1106,7 @@ dependencies:
   sha256: 7793de15d71cbc6aaec9e4ac26f78a06164b4057598a5adc99d4888d69058a5b
 - name: php
   version: 7.1.11
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.1.11-linux-x64-9dc708c2.tgz
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.1.11-linux-x64-577bb750.tgz
   cf_stacks:
   - sle12
   modules:
@@ -1156,7 +1156,7 @@ dependencies:
   - yaf
   - zip
   - zlib
-  sha256: 3b573b1f23ac7c80767ce1524c3ffc31e401d3c71848fc9c221414c9d5e5b3b1
+  sha256: 577bb7507f0593c6de5de6eab10e293035cf0fdd8fd0daa4b5f77b7273b642ee
 - name: nginx
   version: 1.12.2
   uri: https://buildpacks.cloudfoundry.org/dependencies/nginx/nginx-1.12.2-linux-x64-60e5d131.tgz
