@@ -695,8 +695,8 @@ dependencies:
   sha256: b2d573e980e28b9c344a22d49e9d02cbeac7c426ad152bd0b6221e9a7154a2e2
 - name: php
   version: 7.2.4
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.2.4-linux-x64-7d04a9ef.tgz
-  sha256: 7d04a9efee4932b0863866b792d621dc4c6781e7b3f26b7e82da491f4b1a6db0
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.2.4-linux-x64-2fb0119c.tgz
+  sha256: 2fb0119c658bf25e84c4ae0f610e8a7d91a7d1e4894f6564fcedd1032c6da633
   cf_stacks:
   - opensuse42
   modules:
@@ -718,11 +718,14 @@ dependencies:
   - imap
   - ldap
   - lua
+  - lzf
   - mailparse
   - mbstring
+  - memcached
   - mongodb
   - msgpack
   - mysqli
+  - oauth
   - opcache
   - openssl
   - pcntl
@@ -756,8 +759,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.2.5
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.2.5-linux-x64-b7107650.tgz
-  sha256:
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.2.5-linux-x64-a64d7e7f.tgz
+  sha256: a64d7e7fca469d5c567e5a86e5ebe0afce21881e3027ed5324ff025399a2f7d7
   cf_stacks:
   - opensuse42
   modules:
@@ -779,11 +782,14 @@ dependencies:
   - imap
   - ldap
   - lua
+  - lzf
   - mailparse
   - mbstring
+  - memcached
   - mongodb
   - msgpack
   - mysqli
+  - oauth
   - opcache
   - openssl
   - pcntl
@@ -817,8 +823,8 @@ dependencies:
   - zlib
 - name: php
   version: 5.6.36
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php/php-5.6.36-linux-x64-a6bfce9c.tgz
-  sha256: a6bfce9c5459ccea426fd6bb26c4696e4c8c5d5b5404cfd613563738a6e20104
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php/php-5.6.36-linux-x64-90b3bb26.tgz
+  sha256: 90b3bb26661be2ef87a67b9dfb96ac0eb205c24daadf47e4487947c73f48ab6e
   cf_stacks:
   - opensuse42
   modules:
@@ -841,6 +847,7 @@ dependencies:
   - imap
   - ldap
   - lua
+  - lzf
   - mailparse
   - mbstring
   - mcrypt
@@ -852,6 +859,7 @@ dependencies:
   - mssql
   - mysql
   - mysqli
+  - oauth
   - opcache
   - openssl
   - pcntl
@@ -892,8 +900,8 @@ dependencies:
   - zlib
 - name: php
   version: 5.6.35
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php/php-5.6.35-linux-x64-76df4591.tgz
-  sha256: 76df4591709ddc46f5f83022ab96c407a7d3cbb0c16da9c8d56b9c1b8dd833d0
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php/php-5.6.35-linux-x64-49996615.tgz
+  sha256: 49996615c6be453ea0b9002805289d673b53cc83fa41ac3d58892cf2673ab383
   cf_stacks:
   - opensuse42
   modules:
@@ -916,6 +924,7 @@ dependencies:
   - imap
   - ldap
   - lua
+  - lzf
   - mailparse
   - mbstring
   - mcrypt
@@ -927,6 +936,7 @@ dependencies:
   - mssql
   - mysql
   - mysqli
+  - oauth
   - opcache
   - openssl
   - pcntl
@@ -967,8 +977,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.0.29
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.0.29-linux-x64-478a1d10.tgz
-  sha256: 478a1d100780d225036df99785986ec14ae71f237776b9e154292078c4ddfc3d
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.0.29-linux-x64-a73ec78a.tgz
+  sha256: a73ec78a7cd96c4bb5694fa3bd0e8ee4e95a192ebb77fcb5824c360e29b2bd08
   cf_stacks:
   - opensuse42
   modules:
@@ -990,12 +1000,15 @@ dependencies:
   - imap
   - ldap
   - lua
+  - lzf
   - mailparse
   - mbstring
   - mcrypt
+  - memcached
   - mongodb
   - msgpack
   - mysqli
+  - oauth
   - opcache
   - openssl
   - pcntl
@@ -1031,8 +1044,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.0.30
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.0.30-linux-x64-fea27b1b.tgz
-  sha256: fea27b1b59325f8d5e5f6a89f6e8a8847c9f8c59508d04a82d1e41ce8e81dccd
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.0.30-linux-x64-7fc50fe9.tgz
+  sha256: 7fc50fe931d1ad9389de50703e1eff7e446eed12b8dd118c7136d1efa13dbfe3
   cf_stacks:
   - opensuse42
   modules:
@@ -1054,12 +1067,15 @@ dependencies:
   - imap
   - ldap
   - lua
+  - lzf
   - mailparse
   - mbstring
   - mcrypt
+  - memcached
   - mongodb
   - msgpack
   - mysqli
+  - oauth
   - opcache
   - openssl
   - pcntl
@@ -1095,8 +1111,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.1.17
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.1.17-linux-x64-0ddbc638.tgz
-  sha256: 0ddbc6384ce3a28037cd309a633995161744ef51eb055faf221687313406fda4
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.1.17-linux-x64-f9fa225e.tgz
+  sha256: f9fa225ee8b9db39050da825b6ca001221c7799ef348ee341cf4024e55cd40af
   cf_stacks:
   - opensuse42
   modules:
@@ -1162,8 +1178,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.1.16
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.1.16-linux-x64-74737eb1.tgz
-  sha256:
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.1.16-linux-x64-4a55f256.tgz
+  sha256: 4a55f2565e3982fed0ad20bba36607d4f4206f12231131c49685f2947d439583
   cf_stacks:
   - opensuse42
   modules:
@@ -1277,8 +1293,8 @@ dependencies:
   sha256: c41e965f52b669f5029ac942546f57772d0058ef67a605bf40d8c3212b407fdb
 - name: php
   version: 7.2.4
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.2.4-linux-x64-7e9414fa.tgz
-  sha256: 7e9414fa3ed1bdb991e84714e47f28f39d1d5e2e48da254109d02f9f4303b829
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.2.4-linux-x64-14a3b4bc.tgz
+  sha256: 14a3b4bc614032888b8d20db210e8d8c69a6f63ef3dfc2097ff4dd0cbcad749e
   cf_stacks:
   - sle12
   modules:
@@ -1300,11 +1316,14 @@ dependencies:
   - imap
   - ldap
   - lua
+  - lzf
   - mailparse
   - mbstring
+  - memcached
   - mongodb
   - msgpack
   - mysqli
+  - oauth
   - opcache
   - openssl
   - pcntl
@@ -1338,8 +1357,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.2.5
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.2.5-linux-x64-2301f121.tgz
-  sha256: 2301f1218ec4d36c7a8c9dfefae0b98d7d29303455ead0ba8e4aa00a943a1570
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.2.5-linux-x64-2a9dedd9.tgz
+  sha256: 2a9dedd9429008ec3404bd87f81047bbec94f2cb881cf7d4ee512263107a473f
   cf_stacks:
   - sle12
   modules:
@@ -1361,11 +1380,14 @@ dependencies:
   - imap
   - ldap
   - lua
+  - lzf
   - mailparse
   - mbstring
+  - memcached
   - mongodb
   - msgpack
   - mysqli
+  - oauth
   - opcache
   - openssl
   - pcntl
@@ -1399,8 +1421,8 @@ dependencies:
   - zlib
 - name: php
   version: 5.6.36
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.36-linux-x64-3de4e8d6.tgz
-  sha256: 3de4e8d663f8121094763ffb00dfebb9f8e2d493f05b2f06fbe12c173cb1122c
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.36-linux-x64-85301874.tgz
+  sha256: 85301874940479851b0d17faa396ffdf2a940ea5e0b5fee7a61bd90fe949dd4a
   cf_stacks:
   - sle12
   modules:
@@ -1423,6 +1445,7 @@ dependencies:
   - imap
   - ldap
   - lua
+  - lzf
   - mailparse
   - mbstring
   - mcrypt
@@ -1434,6 +1457,7 @@ dependencies:
   - mssql
   - mysql
   - mysqli
+  - oauth
   - opcache
   - openssl
   - pcntl
@@ -1474,8 +1498,8 @@ dependencies:
   - zlib
 - name: php
   version: 5.6.35
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.35-linux-x64-41baa47c.tgz
-  sha256: 41baa47cba56b6f1c1ff75fcd91cf52aab91aae470ed2f642557ddf2fdf81ec8
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.35-linux-x64-403bc95d.tgz
+  sha256: 403bc95d48d1a3ef3e80537568d72dc368a34717035bff9918936b7efb3235cd
   cf_stacks:
   - sle12
   modules:
@@ -1498,6 +1522,7 @@ dependencies:
   - imap
   - ldap
   - lua
+  - lzf
   - mailparse
   - mbstring
   - mcrypt
@@ -1509,6 +1534,7 @@ dependencies:
   - mssql
   - mysql
   - mysqli
+  - oauth
   - opcache
   - openssl
   - pcntl
@@ -1549,8 +1575,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.0.29
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.0.29-linux-x64-4f272998.tgz
-  sha256: 4f272998891d94c070669c1e9558384cd493ea432a3a6eb747519c8252db344b
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.0.29-linux-x64-eb897533.tgz
+  sha256: eb8975334ab396079367a3d49beae1da9b2b5beb2a78e7ff807e925597b1a281
   cf_stacks:
   - sle12
   modules:
@@ -1572,12 +1598,15 @@ dependencies:
   - imap
   - ldap
   - lua
+  - lzf
   - mailparse
   - mbstring
   - mcrypt
+  - memcached
   - mongodb
   - msgpack
   - mysqli
+  - oauth
   - opcache
   - openssl
   - pcntl
@@ -1613,8 +1642,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.0.30
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.0.30-linux-x64-d464fe97.tgz
-  sha256: d464fe9729cc8c87aadc3d9fb19d2673f15c5c8953347c37af784838d4a8744e
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.0.30-linux-x64-ac5aa52b.tgz
+  sha256: ac5aa52b3e92b53be5e1e5bfdf58c824c9ab6e85a9cb6484b6f5be0a5913c0d0
   cf_stacks:
   - sle12
   modules:
@@ -1636,12 +1665,15 @@ dependencies:
   - imap
   - ldap
   - lua
+  - lzf
   - mailparse
   - mbstring
   - mcrypt
+  - memcached
   - mongodb
   - msgpack
   - mysqli
+  - oauth
   - opcache
   - openssl
   - pcntl
@@ -1677,8 +1709,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.1.17
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.1.17-linux-x64-aa3bf224.tgz
-  sha256: aa3bf2240df14c5483e36f2bee807e109062a2ef29be7a002a01e97867786da2
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.1.17-linux-x64-9ff4e96b.tgz
+  sha256: 9ff4e96b9f6c44fd01f986e81a1bf0d7fa2b5a92c3dd41aed15ff4e95ba2b6d8
   cf_stacks:
   - sle12
   modules:
@@ -1744,8 +1776,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.1.16
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.1.16-linux-x64-f9de5794.tgz
-  sha256: f9de5794613d8c097e4ee8cbb9952f31fb3705323be267ffb4a17f656770e08f
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.1.16-linux-x64-a7eea1e1.tgz
+  sha256: a7eea1e11ffac1268ee78321b5c9c704505f8ca9856f38769b18b81ff49d9747
   cf_stacks:
   - sle12
   modules:
