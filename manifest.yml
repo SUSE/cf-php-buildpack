@@ -1853,7 +1853,6 @@ dependencies:
   sha256: 88b2a6033eb868a26a53601608d101642db2be618fd02c164dfdbb57fd56b9e4
   cf_stacks:
   - sle12
-  sha256: e01a9653a68368b85b4c1fdd9a3b4864597500f9e3818e676ad052f2195c8f55
 - name: nginx
   version: 1.14.0
   uri: https://s3.amazonaws.com/cf-sle12/dependencies/nginx/nginx-1.14.0-linux-x64-34f80d95.tgz
