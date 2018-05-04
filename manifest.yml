@@ -695,8 +695,8 @@ dependencies:
   sha256: b2d573e980e28b9c344a22d49e9d02cbeac7c426ad152bd0b6221e9a7154a2e2
 - name: php
   version: 7.2.4
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.2.4-linux-x64-2fb0119c.tgz
-  sha256: 2fb0119c658bf25e84c4ae0f610e8a7d91a7d1e4894f6564fcedd1032c6da633
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.2.4-linux-x64-bce60d59.tgz
+  sha256: bce60d59755d6f5213461b9577d47eff09b3c8abf12deed21cc5be226ea9b55f
   cf_stacks:
   - opensuse42
   modules:
@@ -759,8 +759,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.2.5
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.2.5-linux-x64-a64d7e7f.tgz
-  sha256: a64d7e7fca469d5c567e5a86e5ebe0afce21881e3027ed5324ff025399a2f7d7
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.2.5-linux-x64-0a496b9f.tgz
+  sha256: 0a496b9ff243b857f4f2e1c2da1ff33780e3cbb75d9260f660e19fc132bfc040
   cf_stacks:
   - opensuse42
   modules:
@@ -823,8 +823,8 @@ dependencies:
   - zlib
 - name: php
   version: 5.6.36
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php/php-5.6.36-linux-x64-90b3bb26.tgz
-  sha256: 90b3bb26661be2ef87a67b9dfb96ac0eb205c24daadf47e4487947c73f48ab6e
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php/php-5.6.36-linux-x64-64295187.tgz
+  sha256: 642951876d5fe0c889731a23b28c73ceab8008a4222530d7cc5b6913663f3379
   cf_stacks:
   - opensuse42
   modules:
@@ -900,8 +900,8 @@ dependencies:
   - zlib
 - name: php
   version: 5.6.35
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php/php-5.6.35-linux-x64-49996615.tgz
-  sha256: 49996615c6be453ea0b9002805289d673b53cc83fa41ac3d58892cf2673ab383
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php/php-5.6.35-linux-x64-d6981826.tgz
+  sha256: d6981826523847ec41aa922181a0c756cf056f17316952d8a8452983c18a32a7
   cf_stacks:
   - opensuse42
   modules:
@@ -977,8 +977,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.0.29
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.0.29-linux-x64-a73ec78a.tgz
-  sha256: a73ec78a7cd96c4bb5694fa3bd0e8ee4e95a192ebb77fcb5824c360e29b2bd08
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.0.29-linux-x64-19d2030f.tgz
+  sha256: 19d2030fbc556a7a14db8108b5d75564ace54e24e996ccbb5f8deeaf1eac71f8
   cf_stacks:
   - opensuse42
   modules:
@@ -1044,8 +1044,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.0.30
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.0.30-linux-x64-7fc50fe9.tgz
-  sha256: 7fc50fe931d1ad9389de50703e1eff7e446eed12b8dd118c7136d1efa13dbfe3
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.0.30-linux-x64-ce8d05ef.tgz
+  sha256: ce8d05ef98474a736dc3e5200ae676307c6d45943de4f10f3b6118dd2d2f6e2e
   cf_stacks:
   - opensuse42
   modules:
@@ -1111,8 +1111,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.1.17
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.1.17-linux-x64-f9fa225e.tgz
-  sha256: f9fa225ee8b9db39050da825b6ca001221c7799ef348ee341cf4024e55cd40af
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.1.17-linux-x64-aa24a1dc.tgz
+  sha256: aa24a1dc445d676873f442871e9159dcbed6b189a5a0b7f6319cba9965ea166a
   cf_stacks:
   - opensuse42
   modules:
@@ -1178,8 +1178,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.1.16
-  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.1.16-linux-x64-4a55f256.tgz
-  sha256: 4a55f2565e3982fed0ad20bba36607d4f4206f12231131c49685f2947d439583
+  uri: https://s3.amazonaws.com/cf-opensusefs2/dependencies/php7/php7-7.1.16-linux-x64-81e56533.tgz
+  sha256: 81e565332a5bac81ad466c5bdf43644e044f147c4aa75b3025cf1f79274bd9ac
   cf_stacks:
   - opensuse42
   modules:
@@ -1293,8 +1293,8 @@ dependencies:
   sha256: c41e965f52b669f5029ac942546f57772d0058ef67a605bf40d8c3212b407fdb
 - name: php
   version: 7.2.4
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.2.4-linux-x64-14a3b4bc.tgz
-  sha256: 14a3b4bc614032888b8d20db210e8d8c69a6f63ef3dfc2097ff4dd0cbcad749e
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.2.4-linux-x64-af3ffdec.tgz
+  sha256: af3ffdec58945e55bed864234424dc74b7b3f99742d2051654035559943eda05
   cf_stacks:
   - sle12
   modules:
@@ -1357,8 +1357,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.2.5
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.2.5-linux-x64-2a9dedd9.tgz
-  sha256: 2a9dedd9429008ec3404bd87f81047bbec94f2cb881cf7d4ee512263107a473f
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.2.5-linux-x64-47d3f898.tgz
+  sha256: 47d3f8987bd85dee2c7548d65dd89700d0dd602a2f9c3be191cace630f8333b3
   cf_stacks:
   - sle12
   modules:
@@ -1421,8 +1421,8 @@ dependencies:
   - zlib
 - name: php
   version: 5.6.36
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.36-linux-x64-85301874.tgz
-  sha256: 85301874940479851b0d17faa396ffdf2a940ea5e0b5fee7a61bd90fe949dd4a
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.36-linux-x64-8c248b51.tgz
+  sha256: 8c248b51fe5bc16a378d09f2f0a99593cbd8f08187644f48830856edc5693fba
   cf_stacks:
   - sle12
   modules:
@@ -1498,8 +1498,8 @@ dependencies:
   - zlib
 - name: php
   version: 5.6.35
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.35-linux-x64-403bc95d.tgz
-  sha256: 403bc95d48d1a3ef3e80537568d72dc368a34717035bff9918936b7efb3235cd
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php/php-5.6.35-linux-x64-7078b6be.tgz
+  sha256: 7078b6be81e98f3eac04e143526698a90c136b12b6adcc86a5bfcc9f8b11ede4
   cf_stacks:
   - sle12
   modules:
@@ -1575,8 +1575,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.0.29
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.0.29-linux-x64-eb897533.tgz
-  sha256: eb8975334ab396079367a3d49beae1da9b2b5beb2a78e7ff807e925597b1a281
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.0.29-linux-x64-92022d6c.tgz
+  sha256: 92022d6cdba8019507da340adcaf4499966907db9116733dc11d6f01cff849fc
   cf_stacks:
   - sle12
   modules:
@@ -1642,8 +1642,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.0.30
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.0.30-linux-x64-ac5aa52b.tgz
-  sha256: ac5aa52b3e92b53be5e1e5bfdf58c824c9ab6e85a9cb6484b6f5be0a5913c0d0
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.0.30-linux-x64-828fb67d.tgz
+  sha256: 828fb67dfb47ad852717ee56e499b99a94a11be8abff77104f673d044a5d003d
   cf_stacks:
   - sle12
   modules:
@@ -1709,8 +1709,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.1.17
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.1.17-linux-x64-9ff4e96b.tgz
-  sha256: 9ff4e96b9f6c44fd01f986e81a1bf0d7fa2b5a92c3dd41aed15ff4e95ba2b6d8
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.1.17-linux-x64-609b3e4c.tgz
+  sha256: 609b3e4c390784def77a9604e35c748a308e7c004416bfd7317b73fdc99f180b
   cf_stacks:
   - sle12
   modules:
@@ -1776,8 +1776,8 @@ dependencies:
   - zlib
 - name: php
   version: 7.1.16
-  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.1.16-linux-x64-a7eea1e1.tgz
-  sha256: a7eea1e11ffac1268ee78321b5c9c704505f8ca9856f38769b18b81ff49d9747
+  uri: https://s3.amazonaws.com/cf-sle12/dependencies/php7/php7-7.1.16-linux-x64-022850e1.tgz
+  sha256: 022850e1d44ab219d3ba154988dff216673d9723d1405b6fa21919e51b41cdf5
   cf_stacks:
   - sle12
   modules:
