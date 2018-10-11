@@ -112,7 +112,7 @@ func CopyBrats(version string) *cutlass.App {
 
 func PushApp(app *cutlass.App) {
 	Expect(app.Push()).To(Succeed())
-	Eventually(app.InstanceStates, 20*time.Second).Should(Equal([]string{"RUNNING"}))
+	Eventually(app.InstanceStates, 60*time.Second).Should(Equal([]string{"RUNNING"}))
 }
 
 func modulesForPHPVersion(version string) []string {
