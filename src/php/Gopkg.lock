@@ -28,7 +28,7 @@
     "packager",
   ]
   pruneopts = ""
-  revision = "0f28470a5391e0d3a1a3433e6bff692f849d6bee"
+  revision = "b3a93a61afe673eea69e3165b5e987e52e3cfafc"
 
 [[projects]]
   digest = "1:7ce300e943482aff885b3318c1c6a609827f43e3ba26a073380d5ba6143a0c48"
