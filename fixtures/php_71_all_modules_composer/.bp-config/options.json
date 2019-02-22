@@ -1,4 +1,4 @@
 {
-    "ZEND_EXTENSIONS": ["ioncube", "opcache", "xdebug"],
+    "ZEND_EXTENSIONS": ["opcache", "xdebug"],
     "GEOIP_LOCATION": "geo"
 }
