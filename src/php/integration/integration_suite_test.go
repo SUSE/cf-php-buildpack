@@ -138,13 +138,13 @@ func SkipUnlessCached() {
 }
 
 func SkipUnlessCflinuxfs2() {
-	if !canRunForOneOfStacks("cflinuxfs2", "sle12") {
+	if !canRunForOneOfStacks("cflinuxfs2", "sle12", "opensuse42") {
 		Skip("Skipping because the current stack is not supported")
 	}
 }
 
 func SkipUnlessCflinuxfs3() {
-	if !canRunForOneOfStacks("cflinuxfs3", "cfsle15fs") {
+	if !canRunForOneOfStacks("cflinuxfs3", "sle15") {
 		Skip("Skipping because the current stack is not supported")
 	}
 }
