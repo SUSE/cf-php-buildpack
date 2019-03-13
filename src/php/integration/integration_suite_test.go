@@ -88,6 +88,7 @@ func ConfirmRunning(app *cutlass.App) {
 func PushAppAndConfirm(app *cutlass.App) {
 	Expect(app.Push()).To(Succeed())
 	ConfirmRunning(app)
+	time.Sleep(20*time.Second)
 	Expect(app.ConfirmBuildpack(buildpackVersion)).To(Succeed())
 }
 
@@ -137,14 +138,14 @@ func SkipUnlessCached() {
 }
 
 func SkipUnlessCflinuxfs2() {
-	if stack != "cflinuxfs2" {
-		Skip("Skipping because the current stack is not cflinuxfs2")
+	if !canRunForOneOfStacks("cflinuxfs2", "sle12", "opensuse42") {
+		Skip("Skipping because the current stack is not supported")
 	}
 }
 
 func SkipUnlessCflinuxfs3() {
-	if stack != "cflinuxfs3" {
-		Skip("Skipping because the current stack is not cflinuxfs3")
+	if !canRunForOneOfStacks("cflinuxfs3", "sle15") {
+		Skip("Skipping because the current stack is not supported")
 	}
 }
 
@@ -220,3 +221,14 @@ func AssertNoInternetTraffic(fixtureName string) {
 		Expect(traffic).To(BeEmpty())
 	})
 }
+
+
+func canRunForOneOfStacks(stacks ...string) bool {
+	for _, stack := range stacks {
+		if os.Getenv("CF_STACK") == stack {
+			return true
+		}
+	}
+	return false
+}
+
