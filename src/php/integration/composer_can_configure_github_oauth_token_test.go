@@ -21,7 +21,7 @@ var _ = Describe("Composer", func() {
 		app = cutlass.New(filepath.Join(bpDir, "fixtures", "local_dependencies"))
 	})
 
-	FIt("deploying an app with valid $COMPOSER_GITHUB_OAUTH_TOKEN variable set", func() {
+	It("deploying an app with valid $COMPOSER_GITHUB_OAUTH_TOKEN variable set", func() {
 		app.SetEnv("COMPOSER_GITHUB_OAUTH_TOKEN", os.Getenv("COMPOSER_GITHUB_OAUTH_TOKEN"))
 		PushAppAndConfirm(app)
 
