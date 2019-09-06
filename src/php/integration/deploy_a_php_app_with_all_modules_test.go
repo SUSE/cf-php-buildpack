@@ -35,7 +35,9 @@ func ItLoadsAllTheModules(app *cutlass.App, phpVersion string) {
 		Expect(err).ToNot(HaveOccurred())
 
 		for _, moduleName := range modules {
-			Expect(body).To(MatchRegexp("(?i)module_(Zend[+ ])?%s", moduleName))
+			if moduleName != "ioncube" {
+				Expect(body).To(MatchRegexp("(?i)module_(Zend[+ ])?%s", moduleName))
+			}
 		}
 	})
 }
