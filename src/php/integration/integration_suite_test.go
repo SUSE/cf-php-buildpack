@@ -93,6 +93,7 @@ func ConfirmRunning(app *cutlass.App) {
 func PushAppAndConfirm(app *cutlass.App) {
 	Expect(app.Push()).To(Succeed())
 	ConfirmRunning(app)
+	time.Sleep(60*time.Second)
 	Expect(app.ConfirmBuildpack(buildpackVersion)).To(Succeed())
 }
 
