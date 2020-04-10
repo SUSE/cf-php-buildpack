@@ -27,6 +27,7 @@ var _ = Describe("Deploy app with", func() {
 	}
 
 	BeforeEach(func() {
+		Skip("Skip dynatrace tests")
 		dynatraceAPI = cutlass.New(Fixtures("fake_dynatrace_api"))
 		dynatraceAPI.Buildpacks = []string{
 			"https://github.com/suse/cf-go-buildpack#master",
