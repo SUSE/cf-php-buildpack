@@ -40,7 +40,9 @@ func ItLoadsAllTheModules(app *cutlass.App, phpVersion string) {
 		Expect(err).ToNot(HaveOccurred())
 
 		for _, dependency := range subDependencies {
-			Expect(body).To(MatchRegexp("(?i)module_(Zend[+ ])?%s", dependency.Name))
+			if dependency.Name != "ioncube" {
+				Expect(body).To(MatchRegexp("(?i)module_(Zend[+ ])?%s", dependency.Name))
+			}
 		}
 	})
 }
