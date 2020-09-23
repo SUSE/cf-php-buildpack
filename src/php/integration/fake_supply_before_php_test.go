@@ -24,7 +24,7 @@ var _ = Describe("running supply buildpacks before the php buildpack", func() {
 
 			app = cutlass.New(Fixtures("fake_supply_php_app"))
 			app.Buildpacks = []string{
-				"https://github.com/cloudfoundry/dotnet-core-buildpack#develop",
+				"https://github.com/suse/cf-dotnet-core-buildpack#master",
 				"php_buildpack",
 			}
 			app.Disk = "1G"
